@@ -43,7 +43,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - References:
-    - Overview: docs/reference/index.md
-    - "PopcornAssetBaker basics": docs/reference/assetbaker_basics.md
-    - "Runtime Attributes": docs/reference/attributes.md
-    - "Simulation Interfaces": docs/reference/hasteleported_SI.md
+    - Overview: reference/index.md
+    - "PopcornAssetBaker basics": reference/assetbaker_basics.md
+    - "Runtime Attributes": reference/attributes.md
+    - "Simulation Interfaces": reference/hasteleported_SI.md
