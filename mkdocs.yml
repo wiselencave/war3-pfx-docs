@@ -1,0 +1,46 @@
+site_name: PopcornFX for Warcraft III
+site_url: https://war3-pfx.github.io/war3-pfx-docs
+site_description: Tutorials and documentation for using PopcornFX 2.5 in Warcraft III Reforged
+site_author: wiselencave
+repo_url: https://github.com/war3-pfx/war3-pfx-docs
+repo_name: war3-pfx/war3-pfx-docs
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Tutorials:
+    - "01 — First Effect": tutorials/01-first-effect.md
