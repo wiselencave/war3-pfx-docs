@@ -58,4 +58,4 @@ The baker expects to find the `PopcornFXCore` library at `<inputdir>/Popcorn`. T
  
 ### Boilerplate Project
  
-Instead of setting up the config and library manually, you can use a ready-made boilerplate project: [war3-pfx-boilerplate](https://github.com/wiselencave/war3-pfx-boilerplate). It is a pre-configured PopcornFX 2.5 project for Warcraft III: Reforged that already includes the correct `AssetBaker.pkcf`, the relocated `PopcornFXCore` library, BC3-compressed textures, and attribute templates — everything needed to start baking effects right away.
+Instead of setting up the config and library manually, you can use a ready-made boilerplate project: [war3-pfx-boilerplate](https://github.com/wiselencave/war3-pfx-boilerplate). It is a pre-configured PopcornFX 2.5 project for Warcraft III: Reforged that already includes the correct `AssetBaker.pkcf` and the relocated `PopcornFXCore` library.
