@@ -1,9 +1,9 @@
 site_name: PopcornFX for Warcraft III
-site_url: https://war3-pfx.github.io/war3-pfx-docs
+site_url: https://wiselencave.github.io/war3-pfx-docs
 site_description: Tutorials and documentation for using PopcornFX 2.5 in Warcraft III Reforged
 site_author: wiselencave
-repo_url: https://github.com/war3-pfx/war3-pfx-docs
-repo_name: war3-pfx/war3-pfx-docs
+repo_url: https://github.com/wiselencave/war3-pfx-docs
+repo_name: wiselencave/war3-pfx-docs
 
 theme:
   name: material
