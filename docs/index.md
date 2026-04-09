@@ -8,6 +8,13 @@ Documentation and tutorials for creating custom particle effects in **Warcraft I
 - [Runtime Attributes](reference/attributes.md)
 - [Simulation Interfaces](reference/hasteleported_SI.md)
 
-## Resources
+## Tutorials
+Coming soon...
 
+## Resources
 - [Boilerplate project](https://github.com/war3-pfx/war3-pfx-boilerplate)
+
+## Links
+- [Download PopcornFX Editor v2.5](https://wiki.popcornfx.com/index.php?title=PK-Editor_v2.5)
+- [PopcornFX Documentation (v2.5)](https://documentation.popcornfx.com/PopcornFX/v2.5/index.html)
+- [Tutorials: PopcornFX v2 - Beginners (YouTube)](https://www.youtube.com/playlist?list=PLcNLffz-XEF9q19-Rxs5eahGVf-HiWOZa)
