@@ -1,9 +1,10 @@
 # PopcornFX for Warcraft III
 
-Documentation and tutorials for creating custom particle effects in **Warcraft III: Reforged** using PopcornFX 2.5.
+Documentation for working with PopcornFX 2.5 in Warcraft III: Reforged.
 
 ## References
 
+- [PopcornFX File Extensions](reference/extensions.md)
 - [PopcornAssetBaker basics](reference/assetbaker_basics.md)
 - [Runtime Attributes](reference/attributes.md)
 - [Simulation Interfaces](reference/hasteleported_SI.md)

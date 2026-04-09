@@ -47,3 +47,4 @@ nav:
     - "PopcornAssetBaker basics": reference/assetbaker_basics.md
     - "Runtime Attributes": reference/attributes.md
     - "Simulation Interfaces": reference/hasteleported_SI.md
+    - "PopcornFX File Extensions": reference/extensions.md
