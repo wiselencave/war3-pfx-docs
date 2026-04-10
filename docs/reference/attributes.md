@@ -31,7 +31,7 @@ Attributes prefixed with `Game.*` are set on regular particle emitters attached 
  
 `Game.TeamColor` is the most well-understood attribute. The game reads the unit's replaceable texture color (Replaceable ID 1, which corresponds to team color in Warcraft III models) and passes it to the effect as a `float4` with each channel normalized from 0–255 to 0.0–1.0.
  
-If the attribute is not found in the effect, the game disables team color for that emitter.
+This is used in, for example, the hero glow effect (`sharedfx/hero_glow/hero_glow.pkb`).
  
 ## Boilerplate
  

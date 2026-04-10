@@ -16,7 +16,7 @@ Warcraft III Reforged registers one known simulation interface: `War3.HasTelepor
 
 It is defined in `Popcorn/Library/Templates/War3.pkfx` — a template library that is likely part of Blizzard's internal PopcornFX workflow for Reforged. It outputs a single `bool` stream called `HasTeleported`. The engine uses it to detect when an object moves more than 200 units between frames (i.e. a teleport rather than smooth movement). When this triggers, the effect instance is immediately destroyed — presumably to avoid long-running trails or ribbons stretching across the map.
 
-This interface has been found referenced in baked effects such as `wisp.pkb` and `spiritofvengeance.pkb`.
+This interface has been found referenced in baked effects such as `sharedfx/wisp/wisp.pkb` and `units/nightelf/spiritofvengeance/spiritofvengeance.pkb`.
 
 ### Usage
 
