@@ -13,7 +13,7 @@ Documentation for working with PopcornFX 2.5 in Warcraft III: Reforged.
 Coming soon...
 
 ## Resources
-- [Boilerplate project](https://github.com/war3-pfx/war3-pfx-boilerplate)
+- [Boilerplate project](https://github.com/wiselencave/war3-pfx-boilerplate)
 
 ## Links
 - [Download PopcornFX Editor v2.5](https://wiki.popcornfx.com/index.php?title=PK-Editor_v2.5)
