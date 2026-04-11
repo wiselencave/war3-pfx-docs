@@ -51,6 +51,32 @@ For reference on what settings the underlying AssetBaker supports, see the Popco
 - [Base oven settings](https://documentation.popcornfx.com/PopcornFX/v2.5/baking/resource-ovens/oven-base.html)
  
 How much of this is actually functional in the leaked build has not been fully explored.
+
+### How Baking Works
+ 
+When you run the baker, it goes through the following steps:
+ 
+1. **Mount the input directory** as a virtual file pack (the same file system PopcornFX uses internally).
+2. **Initialize the cookery** — load `Popcorn/AssetBaker.pkcf` and set up the baking pipeline.
+3. **Register resource ovens** — each asset type is handled by a dedicated "oven":
+ 
+| Oven | Handles | Input extensions |
+|------|---------|-----------------|
+| Texture | Images | `.dds`, `.png`, `.jpg`, `.jpeg`, `.tga`, `.tif`, `.tiff`, `.pkm`, `.pvr` |
+| TextureAtlas | Atlases | `.pkat` |
+| Font | Fonts | `.ttf`, `.otf` |
+| VectorField | Vector fields | `.fga` |
+| Particle | Effects | `.pkfx` |
+| HBO | Serialized objects | `.hbo`, `.pkma`, `.pkan`, `.pksa` |
+| Audio | Sounds | `.mp3`, `.wav`, `.ogg` |
+| StraightCopy | Pass-through | `.txt`, `.pkfm`, `.pkvf`, `.pksc` |
+ 
+4. **Scan the input directory** for `*.pkfx` files (ignoring the `Popcorn` folder). Each file is routed to the matching oven based on its extension — the oven then processes it and any resources it depends on (textures, sounds, etc.).
+5. **Write output** to the target directory. The target platform is hardcoded to `x64`. Particle effects (`.pkfx`) are converted to baked `.pkb` files; other resources are processed or copied depending on their oven.
+ 
+In short: the baker recursively finds all `.pkfx` files, resolves their dependencies, runs each resource through the appropriate oven, and writes everything to the output folder in a runtime-ready format.
+ 
+> **Note:** The "StraightCopy" oven simply copies files as-is without any transformation. The "HBO" oven handles PopcornFX's internal serialization format.
  
 ### Library
  
