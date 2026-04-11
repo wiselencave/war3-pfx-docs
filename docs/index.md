@@ -14,7 +14,7 @@ Coming soon...
 
 ## Internals
 
-- [PopcornFX Audio-Reactive Particles](internals/audio-sampler.md)
+- [Audio-Reactive Particles](internals/audio-sampler.md)
 
 ## Resources
 - [Boilerplate project](https://github.com/wiselencave/war3-pfx-boilerplate)
