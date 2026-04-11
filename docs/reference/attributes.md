@@ -35,4 +35,4 @@ This is used in, for example, the hero glow effect (`sharedfx/hero_glow/hero_glo
  
 ## Boilerplate
  
-The [war3-pfx-boilerplate](https://github.com/wiselencave/war3-pfx-boilerplate) project includes ready-to-use template nodes (`War3Game` and `War3Weather` in `Library/Wiselen/War3.pkfx`) that expose all of these attributes with the correct names and types. Just add the node to your effect's nodegraph and wire the output pins — no manual setup needed.
+The [war3-pfx-boilerplate](https://github.com/wiselencave/war3-pfx-boilerplate) project includes ready-to-use template nodes (`War3Game` and `War3Weather` in `Library/Wiselen/Templates/War3.pkfx`) that expose all of these attributes with the correct names and types. Just add the node to your effect's nodegraph and wire the output pins — no manual setup needed.
