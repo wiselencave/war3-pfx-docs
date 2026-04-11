@@ -5,6 +5,7 @@ Documentation for working with PopcornFX 2.5 in Warcraft III: Reforged.
 ## References
 
 - [PopcornFX File Extensions](reference/extensions.md)
+- [Feature Support](reference/features.md)
 - [PopcornAssetBaker basics](reference/assetbaker_basics.md)
 - [Runtime Attributes](reference/attributes.md)
 - [Simulation Interfaces](reference/hasteleported_SI.md)

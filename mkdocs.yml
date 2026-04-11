@@ -44,6 +44,7 @@ nav:
   - Home: index.md
   - References:
     - Overview: reference/index.md
+    - Feature Support: reference/features.md
     - "PopcornAssetBaker basics": reference/assetbaker_basics.md
     - "Runtime Attributes": reference/attributes.md
     - "Simulation Interfaces": reference/hasteleported_SI.md
