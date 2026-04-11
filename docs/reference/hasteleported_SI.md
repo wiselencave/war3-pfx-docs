@@ -8,7 +8,7 @@ Simulation interfaces are a PopcornFX SDK feature that allows the host engine to
 
 In PK-Editor, a simulation interface appears as a regular template graph with a default implementation. When the effect runs inside the game engine, the engine can override that default with its own native code. This means the graph you see in the editor is just a fallback — the actual behavior at runtime may be completely different.
 
-Simulation interfaces are documented in the "Simulation Interfaces" section of the PopcornFX C++ SDK documentation (requires an SDK license).
+Simulation interfaces are documented in the PopcornFX C++ SDK documentation (requires an SDK license).
 
 ## HasTeleported
 
