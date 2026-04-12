@@ -1,6 +1,8 @@
 # PopcornFX for Warcraft III
 
-Documentation for working with PopcornFX 2.5 in Warcraft III: Reforged.
+Documentation for working with PopcornFX 2.5 in Warcraft III: Reforged. 
+
+Some articles were written with the help of AI tools.
 
 ## References
 
@@ -11,7 +13,7 @@ Documentation for working with PopcornFX 2.5 in Warcraft III: Reforged.
 - [Simulation Interfaces](reference/hasteleported_SI.md)
 
 ## Tutorials
-Coming soon...
+- [Tutorial 0: Basic Pipeline & First Bake](tutorials/tutorial0.md)
 
 ## Internals
 

@@ -49,6 +49,9 @@ nav:
     - "Runtime Attributes": reference/attributes.md
     - "Simulation Interfaces": reference/hasteleported_SI.md
     - "PopcornFX File Extensions": reference/extensions.md
+  - Tutorials:
+    - Overview: tutorials/index.md
+    - "Basic Pipeline & First Bake": tutorials/tutorial0.md
   - Internals:
     - Overview: internals/index.md
     - Audio-Reactive Particles: internals/audio-sampler.md
