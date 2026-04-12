@@ -21,6 +21,7 @@ Some articles were written with the help of AI tools.
 
 ## Resources
 - [Boilerplate project](https://github.com/wiselencave/war3-pfx-boilerplate)
+- [Asset Baker](../resources/PopcornAssetBaker.zip)
 
 ## Links
 - [Download PopcornFX Editor v2.5](https://wiki.popcornfx.com/index.php?title=PK-Editor_v2.5)
