@@ -7,6 +7,7 @@ Some articles were written with the help of AI tools.
 ## References
 
 - [PopcornFX File Extensions](reference/extensions.md)
+- [Coordinate System & Axis Convention](reference/coordinate_system.md)
 - [Feature Support](reference/features.md)
 - [PopcornAssetBaker basics](reference/assetbaker_basics.md)
 - [Runtime Attributes](reference/attributes.md)

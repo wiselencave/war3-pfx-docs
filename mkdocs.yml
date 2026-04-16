@@ -44,11 +44,12 @@ nav:
   - Home: index.md
   - References:
     - Overview: reference/index.md
-    - Feature Support: reference/features.md
+    - "PopcornFX File Extensions": reference/extensions.md
+    - "Feature Support": reference/features.md
     - "PopcornAssetBaker basics": reference/assetbaker_basics.md
+    - "Coordinate System & Axis Convention": reference/coordinate_system.md
     - "Runtime Attributes": reference/attributes.md
     - "Simulation Interfaces": reference/hasteleported_SI.md
-    - "PopcornFX File Extensions": reference/extensions.md
   - Tutorials:
     - Overview: tutorials/index.md
     - "Basic Pipeline & First Bake": tutorials/tutorial0.md
