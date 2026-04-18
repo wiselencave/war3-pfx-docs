@@ -56,3 +56,4 @@ nav:
   - Internals:
     - Overview: internals/index.md
     - Audio-Reactive Particles: internals/audio-sampler.md
+  - Resources: resources.md
