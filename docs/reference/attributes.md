@@ -14,10 +14,10 @@ To use an attribute, add an `Attribute` input node to your effect's nodegraph, s
  
 | Attribute | Type | Notes |
 |-----------|------|-------|
-| `Game.LifespanMultiplier` | float | Presumably sourced from MDX track. Not yet tested. |
-| `Game.EmissionRateMultiplier` | float | Presumably sourced from MDX track. Not yet tested. |
-| `Game.SpeedMultiplier` | float | Presumably sourced from MDX track. Not yet tested. |
-| `Game.ColorMultiplier` | float4 | Presumably sourced from MDX tracks. Not yet tested. |
+| `Game.LifespanMultiplier` | float | Lifespan multiplier set on the Popcorn emitter node in the MDX model. Can be animated. Default 1.0. |
+| `Game.EmissionRateMultiplier` | float | Emission rate multiplier set on the Popcorn emitter node in the MDX model. Can be animated. Default 1.0. |
+| `Game.SpeedMultiplier` | float | Speed multiplier set on the Popcorn emitter node in the MDX model. Can be animated. Default 1.0. |
+| `Game.ColorMultiplier` | float4 | Color (RGB) and alpha multipliers set on the Popcorn emitter node in the MDX model. Can be animated independently. |
 | `Game.TeamColor` | float4 | RGBA color derived from the Replaceable ID 1 (team color) texture, normalized to 0.0–1.0. See below. |
 | `Game.TargetPosition` | float3 | Not yet tested. |
 | `Game.Scale` | float | Not yet tested. |
