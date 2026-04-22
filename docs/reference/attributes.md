@@ -19,7 +19,7 @@ To use an attribute, add an `Attribute` input node to your effect's nodegraph, s
 | `Game.SpeedMultiplier` | float | Speed multiplier set on the Popcorn emitter node in the MDX model. Can be animated. Default 1.0. |
 | `Game.ColorMultiplier` | float4 | Color (RGB) and alpha multipliers set on the Popcorn emitter node in the MDX model. Can be animated independently. |
 | `Game.TeamColor` | float4 | RGBA color derived from the Replaceable ID 1 (team color) texture, normalized to 0.0–1.0. See below. |
-| `Game.TargetPosition` | float3 | Not yet tested. |
+| `Game.TargetPosition` | float3 | Lightning destination point in world space. Default (0, 0, 0) for regular emitters.  |
 | `Game.Scale` | float | Not yet tested. |
 | `Weather.TileCenter` | float3 | Not yet tested. |
 | `Weather.Size` | float2 | Not yet tested. |
