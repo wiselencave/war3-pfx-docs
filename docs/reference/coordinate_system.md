@@ -11,7 +11,7 @@ Warcraft III and PopcornFX use different axis conventions. Understanding this mi
 | Warcraft III (MDX) | +X | +Y (left) | +Z |
 | PopcornFX RHZUP | +Y | +X (right) | +Z |
 
-Both systems are Z-Up and right-handed, but the forward and side axes are swapped. This means that `axis.Forward` in PopcornFX points along +Y, while the unit's actual facing direction in Warcraft III is +X. The result: particles fly **behind** the unit instead of in front of it.
+Both systems are Z-Up and right-handed, but the forward and side axes are swapped. This means that `axis.Forward` in PopcornFX points along +Y, while the unit's actual facing direction in Warcraft III is +X.
 
 ## How PopcornFX handles coordinate systems
 
